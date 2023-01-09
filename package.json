@@ -1,1 +1,21 @@
-
+{
+  "name": "deps-cider-cljs-reagent",
+  "version": "1.0.0",
+  "description": "To start Figwheel, open `src/cljs/myapp/core.cljs` in Emacs and type <b>`C-c C-x j s`</b>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clj -Sverbose -M:cider:cider/nrepl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-nhat/deps-cider-cljs-reagent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-nhat/deps-cider-cljs-reagent/issues"
+  },
+  "homepage": "https://github.com/michael-nhat/deps-cider-cljs-reagent#readme"
+}
